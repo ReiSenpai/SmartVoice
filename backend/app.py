@@ -37,6 +37,8 @@ def process_text():
         response = "Apagando la televisión."
     elif 'ayuda' in user_text or 'emergencia' in user_text:
         response = "Enviando señal de ayuda a tu contacto de emergencia."
+    elif 'tu estado' in user_text:
+        response = "Yo, bien gracias, cualquier consulta o accion que quieras, aqui estare para ayudarte."
     elif 'clima' in user_text:
         response = "Actualmente hace 24 grados y está soleado."  # Simulado
     elif 'poner música' in user_text:
